@@ -21,3 +21,6 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+const student = students.map(elm => elm.class)
+console.log(student[0])
